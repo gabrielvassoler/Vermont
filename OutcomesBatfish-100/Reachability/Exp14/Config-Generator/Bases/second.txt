@@ -1,0 +1,6 @@
+!
+boot-start-marker
+boot-end-marker
+!
+!
+logging host 1.1.1.1

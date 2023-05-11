@@ -1,0 +1,218 @@
+{
+    "workload_file": "experiments/waypoint/workload.json",
+    "links": [
+        [
+            "h1",
+            "s1",
+            "0us",
+            100
+        ],
+        [
+            "h2",
+            "s1",
+            "0us",
+            100
+        ],
+        [
+            "h3",
+            "s2",
+            "0us",
+            100
+        ],
+        [
+            "h4",
+            "s2",
+            "0us",
+            100
+        ],
+        [
+            "h5",
+            "s3",
+            "0us",
+            100
+        ],
+        [
+            "h6",
+            "s3",
+            "0us",
+            100
+        ],
+        [
+            "h7",
+            "s4",
+            "0us",
+            100
+        ],
+        [
+            "h8",
+            "s4",
+            "0us",
+            100
+        ],
+        [
+            "h9",
+            "s5",
+            "0us",
+            100
+        ],
+        [
+            "h10",
+            "s5",
+            "0us",
+            100
+        ],
+        [
+            "h11",
+            "s6",
+            "0us",
+            100
+        ],
+        [
+            "h12",
+            "s6",
+            "0us",
+            100
+        ],
+        [
+            "s0",
+            "s1",
+            "0us",
+            100
+        ],
+        [
+            "s0",
+            "s2",
+            "0us",
+            100
+        ],
+        [
+            "s0",
+            "s3",
+            "0us",
+            100
+        ],
+        [
+            "s0",
+            "s4",
+            "0us",
+            100
+        ],
+        [
+            "s0",
+            "s5",
+            "0us",
+            100
+        ],
+        [
+            "s0",
+            "s6",
+            "0us",
+            100
+        ],
+        [
+            "s1",
+            "s2",
+            "0us",
+            100
+        ],
+        [
+            "s1",
+            "s3",
+            "0us",
+            100
+        ],
+        [
+            "s2",
+            "s3",
+            "0us",
+            100
+        ],
+        [
+            "s2",
+            "s4",
+            "0us",
+            100
+        ],
+        [
+            "s2",
+            "s5",
+            "0us",
+            100
+        ],
+        [
+            "s3",
+            "s4",
+            "0us",
+            100
+        ],
+        [
+            "s3",
+            "s5",
+            "0us",
+            100
+        ],
+        [
+            "s4",
+            "s5",
+            "0us",
+            100
+        ],
+        [
+            "s4",
+            "s6",
+            "0us",
+            100
+        ],
+        [
+            "s5",
+            "s6",
+            "0us",
+            100
+        ]
+    ],
+    "switches": {
+        "s0": {
+            "runtime_json": "s0-runtime.json"
+        },
+        "s1": {
+            "cli_input": "s1-cli.txt",
+            "runtime_json": "s1-runtime.json"
+        },
+        "s5": {
+            "cli_input": "s5-cli.txt",
+            "runtime_json": "s5-runtime.json"
+        },
+        "s3": {
+            "cli_input": "s3-cli.txt",
+            "runtime_json": "s3-runtime.json"
+        },
+        "s4": {
+            "cli_input": "s4-cli.txt",
+            "runtime_json": "s4-runtime.json"
+        },
+        "s6": {
+            "cli_input": "s6-cli.txt",
+            "runtime_json": "s6-runtime.json"
+        },
+        "s2": {
+            "cli_input": "s2-cli.txt",
+            "runtime_json": "s2-runtime.json"
+        }
+    },
+    "capture_traffic": true,
+    "hosts": [
+        "h12",
+        "h8",
+        "h11",
+        "h2",
+        "h3",
+        "h4",
+        "h6",
+        "h5",
+        "h1",
+        "h9",
+        "h7",
+        "h10"
+    ],
+    "run_workload": true
+}

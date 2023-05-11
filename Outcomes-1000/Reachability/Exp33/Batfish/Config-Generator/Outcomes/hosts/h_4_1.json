@@ -1,0 +1,10 @@
+{
+    "hostname": "h_4_1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "2.41.10.2/24",
+            "gateway": "2.41.10.1"
+        }
+    }
+}

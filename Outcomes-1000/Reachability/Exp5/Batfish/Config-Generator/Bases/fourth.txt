@@ -1,0 +1,6 @@
+!
+interface Ethernet0/0
+ no ip address
+ shutdown
+ duplex auto
+!

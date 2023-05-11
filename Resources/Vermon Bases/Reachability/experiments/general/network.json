@@ -1,0 +1,19 @@
+{
+    "capture_traffic": true,
+    "run_workload": true,
+    "workload_file": "experiments/general/workload.json",
+    "nodes": 6,
+    "hosts_per_node": 1,
+    "node_links": [
+        ["s1", "s2"],
+        ["s1", "s3"],
+        ["s2", "s4"],
+        ["s3", "s5"],
+        ["s5", "s6"],
+        ["s4", "s6"],
+        ["s2", "s3"],
+        ["s4", "s5"],
+        ["s2", "s5"],
+        ["s3", "s4"]
+    ]
+}

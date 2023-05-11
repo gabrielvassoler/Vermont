@@ -1,0 +1,17 @@
+{
+    "save": [
+
+    ],
+    "tcpreplay": [
+        {
+            "start_delay": 0,
+            "duration": 1,
+            "sender": "h1",
+            "sender_opt": "--preload-pcap --stats=1 resources/workloads/general/red.pcp",
+            "sender_log": "red-s.txt",
+            "receiver": "h11",
+            "receiver_opt": "10.0.6.11 1234",
+            "receiver_log": "red-r.txt"
+        }
+    ]
+}

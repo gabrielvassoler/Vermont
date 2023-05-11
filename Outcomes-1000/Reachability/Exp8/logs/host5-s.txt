@@ -1,0 +1,11 @@
+File Cache is enabled
+Test start: 2022-09-20 18:16:50.207621 ...
+Test complete: 2022-09-20 18:16:51.065760
+Actual: 774 packets (1143972 bytes) sent in 0.858139 seconds
+Rated: 1333084.7 Bps, 10.66 Mbps, 901.95 pps
+Statistics for network device: eth0
+	Successful packets:        774
+	Failed packets:            0
+	Truncated packets:         0
+	Retried packets (ENOBUFS): 0
+	Retried packets (EAGAIN):  0
